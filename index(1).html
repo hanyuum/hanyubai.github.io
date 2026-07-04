@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Hanyu Bai — Electrical &amp; Computer Engineering, University of Michigan</title>
+  <meta name="description" content="Hanyu Bai is a Ph.D. candidate in Electrical & Computer Engineering at the University of Michigan, working on physics-informed machine learning for lithium-ion batteries.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="site-fixes.css?v=20260704">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#about" aria-label="Go to the About section">
+      <span class="brand-mark" aria-hidden="true">HB</span>
+      <span class="brand-name">Hanyu Bai</span>
+    </a>
+
+    <nav class="topnav" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#news">News</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#education">Education</a>
+      <a href="#service">Service</a>
+      <a href="#experience">Experience</a>
+      <a href="#funfacts">Fun Facts</a>
+    </nav>
+
+    <a class="nav-cv" href="assets/CV.pdf" target="_blank" rel="noopener">CV <span aria-hidden="true">↗</span></a>
+  </div>
+</header>
+<div class="page">
+
+  <!-- ================================================================
+       SIDEBAR  —  photo, name, contact, in-page navigation
+       ================================================================ -->
+  <aside class="sidebar">
+    <img class="portrait" src="assets/portrait.jpg" alt="Portrait of Hanyu Bai">
+
+    <h1 class="name">Hanyu Bai</h1>
+    <div class="role">Ph.D. Candidate</div>
+    <div class="role">Electrical &amp; Computer Engineering</div>
+
+    <div class="affil">
+      University of Michigan<br>
+      Energy Storage Lab<br>
+      Ann Arbor, MI, USA
+    </div>
+
+    <!-- Contact & profile links — edit URLs to your real profiles -->
+    <ul class="contact">
+      <li><a href="mailto:hanyubai@umich.edu">hanyubai@umich.edu</a></li>
+      <li><a href="tel:+17342633532">+1 734 263 3532</a></li>
+      <li><a href="assets/CV.pdf">Curriculum Vitae (PDF)</a></li>
+      <li><a href="#" target="_blank" rel="noopener">Google Scholar</a></li>
+      <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+    </ul>
+  </aside>
+
+  <!-- ================================================================
+       MAIN COLUMN
+       ================================================================ -->
+  <main class="main">
+
+    <!-- ABOUT ------------------------------------------------------- -->
+    <section class="section" id="about">
+      <p class="lead">I am a Ph.D. candidate in Electrical &amp; Computer Engineering at the University of Michigan, advised by Prof. Ziyou Song.</p>
+      <p class="para">My research develops physics-informed machine learning for lithium-ion batteries — predicting lifetime, building lifecycle digital twins, and making AI-for-Science predictions reliable under real-world uncertainty. My background spans mechanical engineering (UBC, NUS) and ECE, which shapes how I work: understand the physics first, then let data do the rest.</p>
+    </section>
+
+    <!-- NEWS (lab-style: year heading + tagged bullets) ------------ -->
+    <section class="section" id="news">
+      <h2>News</h2>
+      <div class="news-year">2026</div>
+      <ul class="newslist">
+        <!-- <li><span class="tag">[Award]</span> Our paper “Battery Electrode-Level Diagnostics: Enabled by a 2-Minute Transient Response” won the 2026 IEEE Control Systems Society <b>Best CCTA Paper Award</b>. <span class="date">(Mar 2026)</span></li> -->
+        <li><span class="tag">[Research Highlight]</span> Our paper “Discovery Learning predicts battery cycle life from minimal experiments” was published in <i>Nature</i> as an Editor’s Pick and Cover Feature. <span class="date">(Feb 2026)</span></li>
+        <li><span class="tag">[Internship]</span> Started as a Battery R&amp;D Intern at <b>Farasis Energy USA</b>. <span class="date">(2026)</span></li>
+        <li><span class="tag">[Honor]</span> Named a finalist for the College of Engineering Marian Sarah Parker Prize, University of Michigan. <span class="date">(2026)</span></li>
+      </ul>
+      <!-- <div class="news-year">2025</div>
+      <ul class="newslist">
+        <li><span class="tag">[New Position]</span> Joined the University of Michigan ECE Ph.D. program. <span class="date">(Jan 2025)</span></li>
+      </ul> -->
+    </section>
+
+    <!-- RESEARCH (科研相关) ----------------------------------------- -->
+    <section class="section" id="research">
+      <h2>Research</h2>
+      <div class="entry">
+        <div class="entry-title">Battery lifetime prediction</div>
+        <p class="entry-sub">Physics-informed and machine-learning models that predict the remaining lifetime of both fresh and aged lithium-ion batteries, supporting lifecycle-aware management, retirement, and reuse decisions.</p>
+      </div>
+      <div class="entry">
+        <div class="entry-title">Battery lifecycle digital twins</div>
+        <p class="entry-sub">Multi-scenario simulations that model battery use from EV service through retirement and second-life applications, evaluating lifetime, techno-economic, and environmental outcomes.</p>
+      </div>
+      <div class="entry">
+        <div class="entry-title">AI-for-Science &amp; uncertainty quantification</div>
+        <p class="entry-sub">Prediction frameworks that integrate physical knowledge with data-efficient learning and calibrated uncertainty, providing reliable predictions and actionable confidence for physical-system modeling.</p>
+      </div>
+    </section>
+
+    <!-- FEATURED PUBLICATIONS --------------------------------------- -->
+    <section class="section" id="publications">
+      <h2>Featured Publications</h2>
+      <div class="pubs">
+
+        <article class="pub">
+          <img class="pub-fig" src="assets/paper1.svg" alt="">
+          <div>
+            <div class="pub-title">Discovery Learning predicts battery cycle life from minimal experiments</div>
+            <div class="pub-meta">Zhang, J., Zhang, Y., Yi, B., Ren, Y., Jiao, Q., <b>Bai, H.</b>, Jiang, W., &amp; Song, Z. · <i>Nature</i> 650, 110–115 (2026)</div>
+            <div class="pub-links"><a href="https://www.nature.com/articles/s41586-025-09951-7" target="_blank" rel="noopener">[ paper ]</a></div>
+          </div>
+        </article>
+
+        <article class="pub">
+          <img class="pub-fig" src="assets/paper2.svg" alt="">
+          <div>
+            <div class="pub-title">Battery Electrode-Level Diagnostics: Enabled by a 2-Minute Transient Response</div>
+            <div class="pub-meta"><b>Bai, H.</b>, Hu, Q., Ren, Y., Jiang, W., &amp; Song, Z. · <i>2025 IEEE Conference on Control Technology and Applications (CCTA)</i>, 97–102 (2025)</div>
+            <div class="pub-links"><a href="https://doi.org/10.1109/CCTA53793.2025.11151401" target="_blank" rel="noopener">[ paper ]</a></div>
+          </div>
+        </article>
+
+        <article class="pub">
+          <img class="pub-fig" src="assets/paper3.svg" alt="">
+          <div>
+            <div class="pub-title">Data-Driven Quantification of Battery Degradation Modes via Critical Features from Charging</div>
+            <div class="pub-meta">Cheng, Y., <b>Bai, H.</b>, Liang, Y., Cui, X., Jiang, W., &amp; Song, Z. · <i>arXiv:2412.10044</i> (2024)</div>
+            <div class="pub-links"><a href="https://arxiv.org/abs/2412.10044" target="_blank" rel="noopener">[ preprint ]</a></div>
+          </div>
+        </article>
+
+        <article class="pub">
+          <img class="pub-fig" src="assets/paper4.svg" alt="">
+          <div>
+            <div class="pub-title">The Primary Obstacle to Unlocking Large-Scale Battery Digital Twins</div>
+            <div class="pub-meta"><b>Bai, H.</b>, Hu, X., &amp; Song, Z. · <i>Joule</i> 7, 855–857 (2023)</div>
+            <div class="pub-links"><a href="https://doi.org/10.1016/j.joule.2023.04.001" target="_blank" rel="noopener">[ paper ]</a></div>
+          </div>
+        </article>
+
+        <article class="pub">
+          <img class="pub-fig" src="assets/paper5.svg" alt="">
+          <div>
+            <div class="pub-title">Lithium-Ion Battery, Sodium-Ion Battery, or Redox-Flow Battery: A Comprehensive Comparison in Renewable Energy Systems</div>
+            <div class="pub-meta"><b>Bai, H.</b>, &amp; Song, Z. · <i>Journal of Power Sources</i> 580, 233426 (2023)</div>
+            <div class="pub-links"><a href="https://doi.org/10.1016/j.jpowsour.2023.233426" target="_blank" rel="noopener">[ paper ]</a></div>
+          </div>
+        </article>
+
+        <article class="pub">
+          <img class="pub-fig" src="assets/paper6.svg" alt="">
+          <div>
+            <div class="pub-title">Techno-Economic Assessment of Isolated Micro-Grids with Second-Life Batteries: A Reliability-Oriented Iterative Design Framework</div>
+            <div class="pub-meta"><b>Bai, H.</b>, Lei, S., Geng, S., Hu, X., Li, Z., &amp; Song, Z. · <i>Applied Energy</i> 364, 123068 (2024)</div>
+            <div class="pub-links"><a href="https://doi.org/10.1016/j.apenergy.2024.123068" target="_blank" rel="noopener">[ paper ]</a></div>
+          </div>
+        </article>
+
+        <article class="pub">
+          <img class="pub-fig" src="assets/paper8.svg" alt="">
+          <div>
+            <div class="pub-title">Challenges and Opportunities for Second-Life Batteries: Key Technologies and Economy</div>
+            <div class="pub-meta">Gu, X., <b>Bai, H.</b>, Cui, X., Zhu, J., Zhuang, W., Li, Z., Hu, X., &amp; Song, Z. · <i>Renewable &amp; Sustainable Energy Reviews</i> 192, 114191 (2024)</div>
+            <div class="pub-links"><a href="https://doi.org/10.1016/j.rser.2023.114191" target="_blank" rel="noopener">[ paper ]</a></div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- EDUCATION --------------------------------------------------- -->
+    <section class="section" id="education">
+      <h2>Education</h2>
+      <div class="entry">
+        <div class="entry-head"><span class="entry-title">Ph.D., Electrical &amp; Computer Engineering</span><span class="entry-date">Jan 2025 – Aug 2027 (exp.)</span></div>
+        <div class="entry-sub">University of Michigan · Ann Arbor, MI, USA</div>
+      </div>
+      <div class="entry">
+        <div class="entry-head"><span class="entry-title">Ph.D. (transferred) &amp; M.Sc., Mechanical Engineering</span><span class="entry-date">Aug 2021 – Dec 2024</span></div>
+        <div class="entry-sub">National University of Singapore · Singapore</div>
+      </div>
+      <div class="entry">
+        <div class="entry-head"><span class="entry-title">B.A.Sc., Mechanical Engineering, With Distinction</span><span class="entry-date">Aug 2016 – May 2021</span></div>
+        <div class="entry-sub">University of British Columbia · Vancouver, BC, Canada</div>
+      </div>
+    </section>
+
+    <!-- SERVICE & AWARDS (科研服务：审稿 / TA / 获奖) ---------------- -->
+    <section class="section" id="service">
+      <h2>Service &amp; Awards</h2>
+
+      <div class="sublabel">Peer Review</div>
+      <p class="para" style="margin:2px 0 0; font-size:14.5px; color:var(--body);"><i>Nature Communications</i>, <i>Nature Computational Science</i>, <i>Applied Energy</i>, <i>IEEE Transactions on Intelligent Transportation Systems</i>, <i>Green Energy and Intelligent Transportation</i>, <i>IEEE Transactions on Transportation Electrification</i>, <i>Automotive Innovation</i>, <i>IEEE Transactions on Power Electronics</i>, and <i>eTransportation</i>.</p>
+
+      <div class="sublabel">Teaching &amp; Mentoring</div>
+      <p class="para" style="margin:2px 0 0; font-size:14.5px; color:var(--body);">Graduate Teaching Assistant and Research Mentor — delivered 300+ hours of instruction and mentored 11 undergraduate, graduate, and Ph.D. researchers (University of Michigan; National University of Singapore).</p>
+
+      <div class="sublabel">Leadership</div>
+      <p class="para" style="margin:2px 0 0; font-size:14.5px; color:var(--body);">Student Leader, Academic Careers in ECE · Graduate Student Council Member · Authorized Signatory &amp; Leadership Team Member, U-M Chinese Women&#39;s Basketball Team.</p>
+
+      <div class="sublabel">Awards</div>
+      <div class="rows">
+        <div class="row"><span class="when">2026</span><span class="what">Finalist, College of Engineering Graduate Marian Sarah Parker Prize, University of Michigan.</span></div>
+        <div class="row"><span class="when">24–26</span><span class="what">Excellence in ECE Honor Roll, University of Michigan (2024–25, 2025–26).</span></div>
+        <div class="row"><span class="when">17,19</span><span class="what">Dean&#39;s Honour List, University of British Columbia.</span></div>
+        <div class="row"><span class="when">2016</span><span class="what">Outstanding International Student Award, University of British Columbia.</span></div>
+      </div>
+    </section>
+
+    <!-- VENTURES & INTERNSHIPS (创业实习经历) ------------------------ -->
+    <section class="section" id="experience">
+      <h2>Ventures &amp; Internships</h2>
+
+      <div class="sublabel">Internships</div>
+      <div class="litem"><span class="co">Farasis Energy USA <span>· Battery R&amp;D Intern</span></span><span class="yr">2026</span></div>
+      <div class="litem"><span class="co">Ballard Power Systems <span>· R&amp;D Co-op</span></span><span class="yr">2018–19</span></div>
+      <div class="litem"><span class="co">Lock-Block Ltd. <span>· R&amp;D Co-op</span></span><span class="yr">2019</span></div>
+
+      <div class="sublabel">Ventures</div>
+      <div class="litem"><span class="co">CARDY CRAFT <span>· Co-Founder &amp; Product Development Lead</span></span><span class="yr">2022–23</span></div>
+      <div class="litem"><span class="co">Bikeye <span>· Co-Founder &amp; Technical Lead</span></span><span class="yr">2021–22</span></div>
+    </section>
+
+    <!-- PERSONAL INTERESTS (个人兴趣, with icons) -------------------- -->
+    <section class="section" id="funfacts">
+      <h2>Fun Facts</h2>
+      <div class="interest-list" aria-label="Personal interests">
+
+        <div class="interest feature">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 11l1.4 8.1a1 1 0 0 0 1 .9h7.2a1 1 0 0 0 1-.9L18 11"></path><path d="M4.6 11h14.8"></path><path d="M8 11a3 3 0 0 1-.4-5.6A3.3 3.3 0 0 1 14 4a2.8 2.8 0 0 1 2 7"></path></svg></span>
+          <div>
+            <div class="t">I was a trained pastry chef</div>
+            <div class="d">I worked as a pastry chef at Miku Vancouver (Michelin Guide Recommended), took Third Prize at the CDE Culinary Competition (NUS, 2024), and ran my own custom-dessert bakery.</div>
+          </div>
+        </div>
+
+        <div class="interest">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg></span>
+          <div>
+            <div class="t">I train fight sports</div>
+            <div class="d">Muay Thai (Level 1), Brazilian Jiu-Jitsu, and skiing — plus competitive basketball and track.</div>
+          </div>
+        </div>
+
+        <div class="interest">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg></span>
+          <div>
+            <div class="t">I play the guzheng</div>
+            <div class="d">I play the guzheng and the electronic keyboard.</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="footer">
+      <span>© 2026 Hanyu Bai</span>
+      <span>hanyubai@umich.edu</span>
+      <span>Ann Arbor, MI · Last updated July 2026</span>
+    </div>
+
+  </main>
+</div>
+</body>
+</html>
