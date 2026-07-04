@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="304" height="350" viewBox="0 0 304 350">
+  <defs>
+    <pattern id="s" width="20" height="20" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="#f5f4f1"></rect>
+      <rect width="10" height="20" fill="#efeee9"></rect>
+    </pattern>
+  </defs>
+  <rect width="304" height="350" fill="url(#s)"></rect>
+  <text x="152" y="178" text-anchor="middle" font-family="&#39;IBM Plex Mono&#39;, monospace" font-size="12" letter-spacing="1.5" fill="#a9a49a">PORTRAIT</text>
+</svg>
