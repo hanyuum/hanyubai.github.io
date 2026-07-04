@@ -12,11 +12,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="site-fixes.css?v=20260704">
 </head>
 <body>
 <header class="topbar">
   <div class="topbar-inner">
-    <div class="brand"><a href="#about">Hanyu Bai</a></div>
+    <a class="brand" href="#about" aria-label="Go to the About section">
+      <span class="brand-mark" aria-hidden="true">HB</span>
+      <span class="brand-name">Hanyu Bai</span>
+    </a>
+
     <nav class="topnav" aria-label="Sections">
       <a href="#about">About</a>
       <a href="#news">News</a>
@@ -27,6 +32,8 @@
       <a href="#experience">Experience</a>
       <a href="#funfacts">Fun Facts</a>
     </nav>
+
+    <a class="nav-cv" href="assets/CV.pdf" target="_blank" rel="noopener">CV <span aria-hidden="true">↗</span></a>
   </div>
 </header>
 <div class="page">
@@ -228,7 +235,7 @@
     <!-- PERSONAL INTERESTS (个人兴趣, with icons) -------------------- -->
     <section class="section" id="funfacts">
       <h2>Fun Facts</h2>
-      <div class="interest-list">
+      <div class="interest-list" aria-label="Personal interests">
 
         <div class="interest feature">
           <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 11l1.4 8.1a1 1 0 0 0 1 .9h7.2a1 1 0 0 0 1-.9L18 11"></path><path d="M4.6 11h14.8"></path><path d="M8 11a3 3 0 0 1-.4-5.6A3.3 3.3 0 0 1 14 4a2.8 2.8 0 0 1 2 7"></path></svg></span>
